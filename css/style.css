@@ -1,0 +1,40 @@
+:root {
+    --primary: rgb(255, 2, 107);
+    --secondary: rgb(51, 51, 51);
+}
+
+body {
+    background: var(--secondary);
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 2em;
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    background: var(--secondary);
+    padding: 0.5em;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+input {
+    padding: 0.7em;
+    border: 1px solid var(--secondary);
+    width: 200px;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+}
