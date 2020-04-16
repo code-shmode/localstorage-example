@@ -1,3 +1,2 @@
-# localStorage example
+# Local Storage example
 
-`localStorage` is used
